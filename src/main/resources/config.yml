@@ -1,0 +1,39 @@
+#https://github.com/ItsRavensLand
+#https://www.spigotmc.org/members/ltsravensland.2556924/
+
+# -------------------------------------------------------
+# RankAnimator - config.yml
+#
+# HOW TO SET UP:
+#   1. Define your animations in animations.yml
+#   2. Map each LuckPerms group to an animation below
+#   3. Go to TAB's groups.yml and set tabprefix to:
+#      %rankanimator_prefix%
+#      Example:
+#        _DEFAULT_:
+#          tabprefix: "%rankanimator_prefix%"
+#   4. Run /ra reload
+# -------------------------------------------------------
+
+enabled: true
+
+# Ticks between each animation frame check (1 tick = 50ms)
+update-interval: 1
+
+# Map LuckPerms group names to animations.
+# Group names are case-insensitive.
+# Animation names must exist in animations.yml.
+#
+# Example:
+#   groups:
+#     owner:
+#       animation: owner_flash
+#     admin:
+#       animation: rainbow
+groups:
+  developer:
+    animation: developer
+
+# Shown when a player's group has no animation defined.
+# Leave empty to show nothing (TAB handles it instead).
+fallback-prefix: ""
