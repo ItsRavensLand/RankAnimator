@@ -24,7 +24,7 @@ RankAnimator runs a tick-based engine that cycles through animation frames for e
 
 ## Installation
 
-1. Download the [latest release](https://github.com/<USER>/<REPO>/releases/latest)
+1. Download the [latest release](https://github.com/ItsRavensLand/RankAnimator/releases/latest)
 2. Drop `RankAnimator.jar` into your `plugins/` folder alongside TAB, LuckPerms, and PlaceholderAPI.
 3. Start the server once to generate the config files.
 4. Define your animations in `plugins/RankAnimator/animations.yml`.
